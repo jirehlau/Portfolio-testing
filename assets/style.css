@@ -1,0 +1,42 @@
+*{
+    border: 0;
+    margin: 0;
+    background-color: #f2f5f5;
+}
+
+/* .navbar-container {
+    border: 3px red solid;
+} */
+
+.container{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    height: 25%;
+    width: 25%;
+    margin-top: -40px;
+    margin-left: -40px;
+    /* border: 2px red solid; */
+}
+
+  li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+}
+
+.main-nav{
+    margin-top: 50px;
+    float: right;
+    font-family: Arapey;
+    font-size: 25px;
+    cursor: pointer;
+    /* border: 2px red solid; */
+}
+
+
+
+
+ 
