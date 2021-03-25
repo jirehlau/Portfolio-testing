@@ -1,0 +1,128 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+/* Navbar plus the image background section */
+/* Navbar plus the image background section */
+/* Navbar plus the image background section */
+
+#background-image{
+    background-image: url("https://wallpaperaccess.com/full/383183.png" );
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-container{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: #464646;
+    /* border: 2px red solid;  */
+}
+
+.container{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    height: 10%;
+    width: 10%;
+    margin-top: -15px;
+    margin-left: -15px;
+    /* border: 2px red solid; */
+}
+
+.main-nav{
+    margin-top: 2%;
+    float: right;
+    font-family: Arapey;
+    font-size: 20px;
+    cursor: pointer;
+    /* border: 2px red solid; */
+}
+
+  li {
+    list-style-type: none;
+    display: inline;
+    color: #f2f5f5;
+    font-size: 20px;
+    font-weight: 500px
+}
+
+
+/* Section below my Nav section with a little information about me  */
+
+.aboutContainer{
+    display: flex;
+    background-color: #f5f5f5;
+    padding-top: 2.9%;
+    height: 450px;
+}
+
+/* .container1{
+   flex: 1; 
+   border: 2px red solid;
+} */
+
+.profilePic{
+    margin-left: 10%;
+    border-radius: 35px;
+    border: 2px red solid;
+}
+
+.infoSection{
+    padding-top: 2.5%;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-family: Arapey;
+    border: 2px red solid;
+
+}
+
+.infoDetails{
+    padding-left: 5%;
+}
+
+#name{
+    color: #00ff00;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 4%;
+    line-height: 160%;
+}
+
+
+
+
+
+/* Mobile friendly section  */
+/* code that is here, until the first @media block, will apply to any screen size */
+ 
+  @media screen and (max-width: 320px) {
+    /* comes into effect for screens less than or equal to 320 pixels */
+    #somethingorother {
+      width: 120px ;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    #somethingorother {
+      width: 320px ;
+    }
+  }
+  @media screen and (min-width: 481px) {
+    /* comes into effect for screens larger than or equal to 481 pixels */
+    #somethingorother {
+      width: 480px ;
+    }
+  }
