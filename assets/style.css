@@ -17,6 +17,9 @@
 
 .navbar-container{
     width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: #464646;
     /* border: 2px red solid;  */
 }
 
@@ -26,18 +29,18 @@
 }
 
 .logo{
-    height: 25%;
-    width: 25%;
-    margin-top: -40px;
-    margin-left: -40px;
+    height: 10%;
+    width: 10%;
+    margin-top: -15px;
+    margin-left: -15px;
     /* border: 2px red solid; */
 }
 
 .main-nav{
-    margin-top: 50px;
+    margin-top: 2%;
     float: right;
     font-family: Arapey;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     /* border: 2px red solid; */
 }
@@ -60,19 +63,24 @@
     height: 450px;
 }
 
-.container1{
-   flex: 1;
-}
+/* .container1{
+   flex: 1; 
+   border: 2px red solid;
+} */
 
 .profilePic{
-    float: right;
+    margin-left: 10%;
     border-radius: 35px;
-    /* border: 2px red solid; */
+    border: 2px red solid;
 }
 
 .infoSection{
     padding-top: 2.5%;
-    padding-right: 30%;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-family: Arapey;
+    border: 2px red solid;
+
 }
 
 .infoDetails{
