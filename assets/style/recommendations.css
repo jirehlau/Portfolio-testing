@@ -49,7 +49,7 @@ ul{
     padding-top: 55px;
 }
 .practice-area .inner{ 
-     border:1px solid #999999; 
+    border:1px solid #999999; 
 	 text-align:center; 
 	 margin-bottom:28px; 
 	 padding:40px 25px;
@@ -77,16 +77,17 @@ ul{
 
 .our-webcoderskull{
   /* background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover; */
-    background-color: #3e3e3e;
+    background-color: white;
 }
 .our-webcoderskull .cnt-block{ 
    float:left; 
    width:100%; 
-   background:#fff; 
+   background:#f2f5f5; 
    /* padding:30px 20px;  */
    padding: 0px 20px 0px 20px;
    text-align:center; 
-   border:2px solid #d5d5d5;
+   border:3px solid #d5d5d5;
+   border-radius: 20px;
    margin: 0 0 28px;
 }
 .our-webcoderskull .cnt-block figure{
@@ -223,7 +224,7 @@ transition: all 250ms ease-in-out 0s;
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    background-color: #fff;
+    background-color: #f2f5f5;
     color: #3c3c3c;
     padding: 9px;
     border-radius: 5px;
