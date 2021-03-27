@@ -1,7 +1,7 @@
 *{
     border: 0;
     margin: 0;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -55,7 +55,7 @@ h1
 {
 	width:100%;
 	height:auto;
-	border-bottom:5px #323233 solid;
+	/* border-bottom:5px #323233 solid; */
 	background:#fff;
 	text-align:center;
 	border-radius:10px;
@@ -142,7 +142,7 @@ Footer section below */
 .footer-top {
   background-color: #bbe1f8;
   border-bottom: 2px solid #908e9b;
-  height: 300px;
+  height: 200px;
 }
 
 .text-center {

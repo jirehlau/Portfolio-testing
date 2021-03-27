@@ -1,7 +1,9 @@
 /* Navbar
 Navbar
 Navbar */
-
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
