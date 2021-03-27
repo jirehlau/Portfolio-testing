@@ -121,3 +121,280 @@ a:hover, a:active {
   width: 70px;
 }
 
+/* skills section
+skills section
+skills section */
+
+.skill-set__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.skill-set__list {
+  width: 47%;
+}
+ol, ul {
+  list-style: none;
+}
+
+.skill-set__item {
+   margin-top: 1.4rem; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.skill-set__icon {
+  width: 10.6382%;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+.skill-set__detail {
+  width: 85.1063%;
+}
+.skill-set__meta {
+  margin-bottom: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.skill-set__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.small-title {
+  font-size: 2.4rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  font-family: "futura_de";
+}
+.skill-set__year {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #c0c5ca;
+  margin-left: 0.8rem;
+  letter-spacing: 0.2em;
+}
+.skill-set__high {
+  color: #ff4d5a;
+}
+.small-title {
+  font-size: 2.4rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  font-family: "futura_de";
+}
+skill-set__ratio {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #072142;
+}
+
+
+/* Footer section below
+Footer section below
+Footer section below */
+
+.ft-copyright {
+  background-color: #000a1f;
+  border-top: 2px solid #908e9b;
+  display: flex;
+}
+
+.pb-2,
+.py-2 {
+  padding-bottom: .5rem !important;
+  padding-top: .5rem !important;
+}
+
+.footer-top {
+  background-color: #bbe1f8;
+  border-bottom: 2px solid #908e9b;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+h4.ft-text-title {
+  color: #908e9b;
+  margin: 20px 0 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4 {
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+h6.ft-desp {
+  color: #fff;
+  padding: 2px;
+}
+
+h6 {
+  font-size: 15px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1.heading-title a{
+  color: #fff !important;
+  text-decoration: none;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.4;
+  color: #000;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+a.contact,
+a.mail {
+  border: 1px solid #908e9b;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #f5f6f7;
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a.contact:hover,
+a.mail:hover {
+  background: #900;
+}
+
+i.fa-phone,
+i.fa-envelope-o {
+  padding: 3px;
+}
+
+i.fa-envelope-o {
+  padding: 4px;
+}
+
+.border-left {
+  border-left: dotted #ddd 1px;
+}
+
+.pspt-dtls {
+  margin-top: 20px !important;
+}
+
+.pspt-dtls a {
+  margin: 8px !important;
+}
+
+a.about,
+a.team,
+a.advertise {
+  padding: 8px;
+  border: 1px #908e9b solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a.about:hover,
+a.team:hover,
+a.advertise:hover {
+  background: #900;
+}
+
+footer p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.text-pp-crt,
+.text-pp-crt-rg {
+  color: #363636;
+}
+
+.developer {
+  text-align: center;
+}
+  p.member{
+      color:#FFF;
+  }
+i.develop {
+  border: 1px red dotted;
+}
+
+.developer b {
+  color: #908e9b;
+}
+
+
+
+
+/* Phone friendly  */
+
+@media all and (min-width: 1001px) {
+  #sidebar ul li a:after {
+    content: " (" attr(data-email) ")";
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+  }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  #sidebar ul li a:before {
+    content: "Email: ";
+    font-style: italic;
+    color: #666;
+  }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  #sidebar ul li a {
+    padding-left: 21px;
+    background: url(../images/email.png) left center no-repeat;
+  }
+}
