@@ -36,7 +36,7 @@ p{
     padding: 45px 0;
 }
 .section-dark {
-    background-color: #f9f9f9;
+    background-color: #f2f5f5;
     z-index: -2;
 }
 .form-control,
@@ -595,3 +595,159 @@ select.form-control[multiple] {
     font-weight: 500;
     height: auto
 }
+
+
+/* footer section
+footer section
+footer section */
+
+/* Footer section below
+Footer section below
+Footer section below */
+
+.ft-copyright {
+    background-color: #000a1f;
+    border-top: 2px solid #908e9b;
+    display: flex;
+  }
+  
+  .pb-2,
+  .py-2 {
+    padding-bottom: .5rem !important;
+    padding-top: .5rem !important;
+  }
+  
+  .footer-top {
+    background-color: #bbe1f8;
+    border-bottom: 2px solid #908e9b;
+    height: 300px;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  h4.ft-text-title {
+    color: #908e9b;
+    margin: 20px 0 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  h6.ft-desp {
+    color: #fff;
+    padding: 2px;
+  }
+  
+  h6 {
+    font-size: 15px;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1.heading-title a{
+    color: #fff !important;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: #000;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  a.contact,
+  a.mail {
+    border: 1px solid #908e9b;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #f5f6f7;
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  a.contact:hover,
+  a.mail:hover {
+    background: #900;
+  }
+  
+  i.fa-phone,
+  i.fa-envelope-o {
+    padding: 3px;
+  }
+  
+  i.fa-envelope-o {
+    padding: 4px;
+  }
+  
+  .border-left {
+    border-left: dotted #ddd 1px;
+  }
+  
+  .pspt-dtls {
+    margin-top: 20px !important;
+  }
+  
+  .pspt-dtls a {
+    margin: 8px !important;
+  }
+  
+  a.about,
+  a.team,
+  a.advertise {
+    padding: 8px;
+    border: 1px #908e9b solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  a.about:hover,
+  a.team:hover,
+  a.advertise:hover {
+    background: #900;
+  }
+  
+  footer p {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .text-pp-crt,
+  .text-pp-crt-rg {
+    color: #363636;
+  }
+  
+  .developer {
+    text-align: center;
+  }
+    p.member{
+        color:#FFF;
+    }
+  i.develop {
+    border: 1px red dotted;
+  }
+  
+  .developer b {
+    color: #908e9b;
+  }
+  
